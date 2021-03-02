@@ -4,7 +4,7 @@
 class Svgasm < Formula
   desc "svgasm"
   homepage "https://github.com/tomkwok/svgasm/"
-  version "0.2021.02.28"
+  version "0.2021.03.02"
   bottle :unneeded
   depends_on "svgcleaner"
   depends_on "svgo" => :optional
@@ -12,8 +12,8 @@ class Svgasm < Formula
   depends_on "graphicsmagick"
 
   if OS.mac?
-    url "https://github.com/tomkwok/homebrew-tap/releases/download/svgasm-0.2021.02.28/svgasm.tar.gz"
-    sha256 "da1994cf6f7efbdf4b9beefc1fb29c50e27ccac72bb9fbf41e455d9a9f02a91f"
+    url "https://github.com/tomkwok/homebrew-tap/releases/download/svgasm-0.2021.03.02/svgasm.tar.gz"
+    sha256 "bd8326ac4596111b0faa9bbbe95c5cffca35f3e1ab7b8b9baa553e0330b4289e"
   end
 
   def install
